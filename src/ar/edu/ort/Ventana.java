@@ -1,11 +1,11 @@
-package com.ar.mcuppo;
+package ar.edu.ort;
 
 /**
  * Interfaz windows
  * @author MCUPO
  *
  */
-public interface Window {
+public interface Ventana {
 /**
  * Metodo para dibujar
  */

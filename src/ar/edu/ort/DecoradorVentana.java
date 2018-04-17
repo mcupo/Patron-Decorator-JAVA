@@ -1,14 +1,14 @@
-package com.ar.mcuppo;
+package ar.edu.ort;
 
 /**
  * abstract decorator class - note that it implements Window
  * @author MCUPO
  *
  */
-abstract class WindowDecorator implements Window {
-    protected Window decoratedWindow; // the Window being decorated
+abstract class DecoradorVentana implements Ventana {
+    protected Ventana decoratedWindow; // the Window being decorated
  
-    public WindowDecorator (Window decoratedWindow) {
+    public DecoradorVentana (Ventana decoratedWindow) {
         this.decoratedWindow = decoratedWindow;
     }
     public void draw() {

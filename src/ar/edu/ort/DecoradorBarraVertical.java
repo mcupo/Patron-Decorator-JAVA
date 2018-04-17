@@ -1,12 +1,12 @@
-package com.ar.mcuppo;
+package ar.edu.ort;
 
 /**
  * the first concrete decorator which adds vertical scrollbar functionality
  * @author MCUPO
  *
  */
-class VerticalScrollBarDecorator extends WindowDecorator {
-    public VerticalScrollBarDecorator (Window decoratedWindow) {
+class DecoradorBarraVertical extends DecoradorVentana {
+    public DecoradorBarraVertical (Ventana decoratedWindow) {
         super(decoratedWindow);
     }
  

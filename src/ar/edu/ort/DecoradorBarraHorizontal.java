@@ -1,4 +1,4 @@
-package com.ar.mcuppo;
+package ar.edu.ort;
 
 /**
  * the second concrete decorator which adds horizontal scrollbar functionality
@@ -6,8 +6,8 @@ package com.ar.mcuppo;
  *
  */
 
-class HorizontalScrollBarDecorator extends WindowDecorator {
-    public HorizontalScrollBarDecorator (Window decoratedWindow) {
+class DecoradorBarraHorizontal extends DecoradorVentana {
+    public DecoradorBarraHorizontal (Ventana decoratedWindow) {
         super(decoratedWindow);
     }
  

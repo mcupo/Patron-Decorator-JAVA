@@ -1,10 +1,10 @@
-package com.ar.mcuppo;
+package ar.edu.ort;
 /**
  * Interfaz ventana
  * @author MCUPO
  *
  */
-public class SimpleWindow implements Window {
+public class VentanaSimple implements Ventana {
 
 	 public void draw() {
 	        // draw window
