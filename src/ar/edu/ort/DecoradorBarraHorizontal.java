@@ -7,7 +7,7 @@ package ar.edu.ort;
  */
 
 class DecoradorBarraHorizontal extends DecoradorVentana {
-    public DecoradorBarraHorizontal (Ventana decoratedWindow) {
+    public DecoradorBarraHorizontal (ComponenteVisual decoratedWindow) {
         super(decoratedWindow);
     }
  

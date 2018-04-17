@@ -5,10 +5,10 @@ package ar.edu.ort;
  * @author MCUPO
  *
  */
-abstract class DecoradorVentana implements Ventana {
-    protected Ventana decoratedWindow; // the Window being decorated
+abstract class DecoradorVentana implements ComponenteVisual {
+    protected ComponenteVisual decoratedWindow; // the Window being decorated
  
-    public DecoradorVentana (Ventana decoratedWindow) {
+    public DecoradorVentana (ComponenteVisual decoratedWindow) {
         this.decoratedWindow = decoratedWindow;
     }
     public void draw() {

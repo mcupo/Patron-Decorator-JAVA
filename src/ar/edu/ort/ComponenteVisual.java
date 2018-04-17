@@ -5,7 +5,7 @@ package ar.edu.ort;
  * @author MCUPO
  *
  */
-public interface Ventana {
+public interface ComponenteVisual {
 /**
  * Metodo para dibujar
  */

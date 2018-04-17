@@ -4,7 +4,7 @@ package ar.edu.ort;
  * @author MCUPO
  *
  */
-public class VentanaSimple implements Ventana {
+public class VentanaSimple implements ComponenteVisual {
 
 	 public void draw() {
 	        // draw window
