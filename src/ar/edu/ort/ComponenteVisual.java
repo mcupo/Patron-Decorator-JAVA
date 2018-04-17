@@ -1,15 +1,10 @@
 package ar.edu.ort;
 
-/**
- * Interfaz windows
- * @author MCUPO
- *
- */
+//Clase Componente
 public interface ComponenteVisual {
-/**
- * Metodo para dibujar
- */
-	public void draw(); // draws the Window
+	
+	//Metodo para dibujar
+	public void dibujar();
 
-	public String getDescription(); // returns a description of the Window
+	public String getDescripcion();
 }

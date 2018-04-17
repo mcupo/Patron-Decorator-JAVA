@@ -1,19 +1,13 @@
 package ar.edu.ort;
-/**
- * Interfaz ventana
- * @author MCUPO
- *
- */
+
+//Clase componente concreto
 public class VentanaSimple implements ComponenteVisual {
 
-	 public void draw() {
-	        // draw window
+	 public void dibujar() {
 	    	System.out.println("dibujo una ventana");
-	    }
+	 }
 	 
-	    public String getDescription() {
-	        return "simple window";
-	    }
-
+	public String getDescripcion() {
+	    return "ventana simple";
+	}
 }
-

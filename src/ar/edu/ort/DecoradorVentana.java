@@ -1,17 +1,15 @@
 package ar.edu.ort;
 
-/**
- * abstract decorator class - note that it implements Window
- * @author MCUPO
- *
- */
-abstract class DecoradorVentana implements ComponenteVisual {
-    protected ComponenteVisual decoratedWindow; // the Window being decorated
+//Clase decorador
+public abstract class DecoradorVentana implements ComponenteVisual {
+	
+    protected ComponenteVisual ventanaDecorada; // la ventana que va a ser decorada
  
-    public DecoradorVentana (ComponenteVisual decoratedWindow) {
-        this.decoratedWindow = decoratedWindow;
+    public DecoradorVentana (ComponenteVisual ventanaDecorada) {
+        this.ventanaDecorada = ventanaDecorada;
     }
-    public void draw() {
-        decoratedWindow.draw();
+    
+    public void dibujar() {
+    	ventanaDecorada.dibujar();
     }
 }

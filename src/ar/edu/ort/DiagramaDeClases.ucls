@@ -19,16 +19,7 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="ar.edu.ort.DecoradorBarraVertical" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/DecoradorBarraVertical.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="433" y="488"/>    
-    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
-      sort-features="false" accessors="true" visibility="true">      
-      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
-      <operations public="true" package="true" protected="true" private="true" static="true"/>    
-    </display>  
-  </class>  
-  <class id="4" language="java" name="ar.edu.ort.VentanaSimple" project="Decorator" 
+  <class id="3" language="java" name="ar.edu.ort.VentanaSimple" project="Decorator" 
     file="/Decorator/src/ar/edu/ort/VentanaSimple.java" binary="false" corner="BOTTOM_RIGHT">    
     <position height="-1" width="-1" x="169" y="279"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
@@ -37,43 +28,53 @@
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="ar.edu.ort.DecoradorBarraHorizontal" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/DecoradorBarraHorizontal.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="760" y="500"/>    
+  <class id="4" language="java" name="ar.edu.ort.DecoradorScrollHorizontal" project="Decorator" 
+    file="/Decorator/src/ar/edu/ort/DecoradorScrollHorizontal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="618" y="499"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <association id="6">    
-    <end type="SOURCE" refId="2" navigable="false">      
-      <attribute id="7" name="decoratedWindow">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </attribute>      
-      <multiplicity id="8" minimum="0" maximum="1">        
-        <position height="0" width="0" x="0" y="0"/>      
-      </multiplicity>    
-    </end>    
-    <end type="TARGET" refId="1" navigable="true"/>    
-    <display labels="true" multiplicity="true"/>  
-  </association>  
-  <generalization id="9">    
+  <class id="5" language="java" name="ar.edu.ort.DecoradorScrollVertical" project="Decorator" 
+    file="/Decorator/src/ar/edu/ort/DecoradorScrollVertical.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="287" y="498"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ar.edu.ort.DecoradorBordeNegro" project="Decorator" 
+    file="/Decorator/src/ar/edu/ort/DecoradorBordeNegro.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="950" y="496"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="7">    
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="2"/>  
   </generalization>  
-  <realization id="10">    
+  <generalization id="8">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <realization id="9">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
-  <generalization id="11">    
+  <realization id="10">    
     <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <realization id="12">    
-    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
+  <generalization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    
