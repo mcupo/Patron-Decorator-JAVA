@@ -1,79 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
-  <interface id="1" language="java" name="ar.edu.ort.ComponenteVisual" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/ComponenteVisual.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="101" width="148" x="293" y="75"/>    
+  <interface id="1" language="java" name="ar.edu.ort.ComponenteVisual" project="Patron-Decorator-JAVA" 
+    file="/Patron-Decorator-JAVA/src/ar/edu/ort/ComponenteVisual.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="299" y="64"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </interface>  
-  <class id="2" language="java" name="ar.edu.ort.DecoradorVentana" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/DecoradorVentana.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="607" y="313"/>    
+  <class id="2" language="java" name="ar.edu.ort.VentanaSimple" project="Patron-Decorator-JAVA" 
+    file="/Patron-Decorator-JAVA/src/ar/edu/ort/VentanaSimple.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="137" x="38" y="137"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="3" language="java" name="ar.edu.ort.VentanaSimple" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/VentanaSimple.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="169" y="279"/>    
+  <class id="3" language="java" name="ar.edu.ort.DecoradorVentana" project="Patron-Decorator-JAVA" 
+    file="/Patron-Decorator-JAVA/src/ar/edu/ort/DecoradorVentana.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="484" y="201"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="4" language="java" name="ar.edu.ort.DecoradorScrollHorizontal" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/DecoradorScrollHorizontal.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="618" y="499"/>    
+  <class id="4" language="java" name="ar.edu.ort.DecoradorScrollVertical" project="Patron-Decorator-JAVA" 
+    file="/Patron-Decorator-JAVA/src/ar/edu/ort/DecoradorScrollVertical.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="167" y="366"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="5" language="java" name="ar.edu.ort.DecoradorScrollVertical" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/DecoradorScrollVertical.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="287" y="498"/>    
+  <class id="5" language="java" name="ar.edu.ort.DecoradorScrollHorizontal" project="Patron-Decorator-JAVA" 
+    file="/Patron-Decorator-JAVA/src/ar/edu/ort/DecoradorScrollHorizontal.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="448" y="366"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <class id="6" language="java" name="ar.edu.ort.DecoradorBordeNegro" project="Decorator" 
-    file="/Decorator/src/ar/edu/ort/DecoradorBordeNegro.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="950" y="496"/>    
+  <class id="6" language="java" name="ar.edu.ort.DecoradorBordeNegro" project="Patron-Decorator-JAVA" 
+    file="/Patron-Decorator-JAVA/src/ar/edu/ort/DecoradorBordeNegro.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="715" y="364"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="7">    
-    <end type="SOURCE" refId="5"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <generalization id="8">    
-    <end type="SOURCE" refId="6"/>    
-    <end type="TARGET" refId="2"/>  
-  </generalization>  
-  <realization id="9">    
+  <realization id="7">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
-  <realization id="10">    
+  <realization id="8">    
     <end type="SOURCE" refId="3"/>    
     <end type="TARGET" refId="1"/>  
   </realization>  
-  <generalization id="11">    
+  <generalization id="9">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="11">    
+    <bendpoint x="484" y="68"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="12" name="ventanaDecorada">        
+        <position height="18" width="94" x="254" y="130"/>      
+      </attribute>      
+      <multiplicity id="13" minimum="0" maximum="1">        
+        <position height="16" width="23" x="341" y="128"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="false" multiplicity="false"/>  
+  </association>  
+  <generalization id="14">    
     <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
+    <end type="TARGET" refId="3"/>  
   </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    

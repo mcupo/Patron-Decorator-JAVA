@@ -8,7 +8,7 @@ public class DecoradorScrollVertical extends DecoradorVentana {
     }
  
     public void dibujar() {
-    	ventanaDecorada.dibujar();
+    	super.dibujar();
     	dibujarScrollVertical();
     }
  
@@ -17,6 +17,6 @@ public class DecoradorScrollVertical extends DecoradorVentana {
     }
  
     public String getDescripcion() {
-        return ventanaDecorada.getDescripcion() + ", incluyendo scroll vertical";
+        return super.getDescripcion() + ", incluyendo scroll vertical";
     }
 }

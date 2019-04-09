@@ -7,7 +7,7 @@ public class DecoradorBordeNegro extends DecoradorVentana {
     }
  
     public void dibujar() {
-    	ventanaDecorada.dibujar();
+    	super.dibujar();
     	dibujarBordeNegro();
     }
  
@@ -16,6 +16,6 @@ public class DecoradorBordeNegro extends DecoradorVentana {
     }
  
     public String getDescripcion() {
-        return ventanaDecorada.getDescripcion() + ", incluyendo borde negro";
+        return super.getDescripcion() + ", incluyendo borde negro";
     }
 }

@@ -3,7 +3,7 @@ package ar.edu.ort;
 //Clase decorador
 public abstract class DecoradorVentana implements ComponenteVisual {
 	
-    protected ComponenteVisual ventanaDecorada; // la ventana que va a ser decorada
+    private ComponenteVisual ventanaDecorada; // la ventana que va a ser decorada
  
     public DecoradorVentana (ComponenteVisual ventanaDecorada) {
         this.ventanaDecorada = ventanaDecorada;
@@ -11,5 +11,9 @@ public abstract class DecoradorVentana implements ComponenteVisual {
     
     public void dibujar() {
     	ventanaDecorada.dibujar();
+    }
+    
+    public String getDescripcion() {
+    	return ventanaDecorada.getDescripcion();
     }
 }
